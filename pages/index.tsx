@@ -1,7 +1,7 @@
-import Bento from 'Components/Bento'
-import ShashinArubamu from 'Components/ShashinArubamu'
-import Sushisho from 'Components/Sushisho'
-import Sushiten from 'Components/Sushiten'
+import Bento from 'bento/Bento'
+import ShashinArubamu from 'bento/ShashinArubamu'
+import Sushisho from 'bento/Sushisho'
+import Sushiten from 'bento/Sushiten'
 
 export default function Home() {
   return (
