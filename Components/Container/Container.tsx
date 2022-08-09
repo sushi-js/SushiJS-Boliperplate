@@ -6,7 +6,7 @@ import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Footer from 'Bento/Footer/Footer'
+import Footer from 'Components/Footer/Footer'
 import cn from 'lib/classNames'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import Container from 'Bento/Container'
+import Container from 'Components/Container'
 
 export default function NotFound() {
   return (
