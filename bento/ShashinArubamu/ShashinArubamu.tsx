@@ -3,73 +3,113 @@ import React from 'react'
 
 const posts = [
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Tinder.jpg',
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Tinder.jpg',
     title: 'Tinder',
     category: { name: 'Eventos, Street Marketing' },
     description:
-      'Evento en el Hotel Wela, en donde se informo el funcionamiento de la aplicación',
+      'Evento en el Hotel Wela, en donde se informo el funcionamiento de la aplicación.',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Samsung.jpg',
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Perrier.jpg',
+    title: 'Perrier',
+    category: { name: 'Bebidas, Eventos, Festival, Sampling' },
+    description:
+      'Evento con Perrier en festivales: Madrid - Mercado de diseño, Mercado de Motores, Mulafest',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-MotoGP.jpg',
+    title: 'MotoGP',
+    category: { name: 'Bebidas, Eventos, Festival, Sampling' },
+    description: 'Gran Premio de Cataluña, circuito de Montemelo.',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Samsung.jpg',
     title: 'Samsung',
     category: { name: 'Eventos' },
     description:
       'Evento privado para invitados del MWC (mobile World congress).',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Telefonica-2.jpg',
-    title: 'Telefónica',
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-MM.jpg',
+    title: 'M&M',
+    category: { name: 'Sampling' },
+    description: 'Campaña de Sampling M&M, realizada en Andorra y Baqueira',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-VICE.jpg',
+    title: 'VICE',
     category: { name: 'Eventos, Eventos deportivos' },
+    description:
+      'Festival Cara B, es un festival de cultura musical independiente y urbana, que se celebra en Barcelona, se posiciona como el principal escaparate de las tendencias musicales y los sonidos más frescos del momento.',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Movistar.jpg',
+    title: 'Movistar',
+    category: { name: 'Eventos, Fashion' },
+    description:
+      'Durante años fuimos los responsable de proveer el staff para grandes premios no solo de F1 sino que también de Moto GP, conocemos muy bien los protocolos de actuación en los circuitos.',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Telefonica.jpg',
+    title: 'Telefónica',
+    category: { name: 'Eventos, Fashion' },
     description:
       'Proveedores oficiales durante 4 años, evento realizado en Diagonal 00 Torre Telefónica.',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/perrier-1.jpg',
-    title: 'Perrier',
-    category: { name: 'Bebidas, Eventos, Festival, Sampling' },
-    description:
-      'Evento con Perrier en festivales: Madrid - Mercado de diseño, Mercado de Motores, Mulafest',
-  },
-
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/VICE4.jpg',
-    title: 'VICE',
-    category: { name: 'Eventos, Fashion' },
-    description:
-      'Festival Cara B, es un festival de cultura musical independiente y urbana, que se celebra en Barcelona',
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Corona.jpg',
+    title: 'Corona',
+    category: { name: 'Bebidas, Eventos, Street Marketing' },
+    description: 'Campaña de verano realizada en Barcelona y alrededores.',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Figaro2-1.jpg',
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-IQOS.jpg',
+    title: 'IQOS',
+    category: { name: 'Eventos, In Store' },
+    description:
+      'Co_Lab Café by IQOS, Madrid. Espacio en el que nuestros expertos te asesorarán sobre este nuevo dispositivo electrónico que calienta el tabaco en lugar de quemarlo y te resolverán cualquier duda o incidencia. Pensado para reunir diversas personalidades, conectar ideas, promocionar la experimentación y compartir ejemplos sobre transformación y cambio.',
+  },
+  {
+    imageUrl:
+      'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Figaro.jpg',
     title: 'Figaro',
     category: { name: 'Eventos, Peluquería' },
     description:
-      'Premios Fígaro. El evento más importante del calendario de la peluquería española.',
+      'Premios Fígaro. El evento más importante del calendario de la peluquería española, donde se presentaron las quince colecciones finalistas antes de la entrega de galardones.',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/VIKINGO.jpg',
+    imageUrl: 
+    'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Vikingo.jpg',
     title: 'Vikingo',
     category: { name: 'Bebidas, Eventos' },
     description:
       'Evento realizado en el congreso CCIB (centre convencions internacional Barcelona).',
   },
   {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Corona.jpg',
-    title: 'Corona',
-    category: { name: 'Bebidas, Eventos, Street Marketing' },
-    description: 'Campaña de verano realizada en Barcelona y alrededores',
-  },
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/MYM.jpg',
-    title: 'M&M',
-    category: { name: 'Sampling' },
-    description: 'Campaña de Sampling M&M, realizada en Andorra y Baqueira',
-  },
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Movistar-1-1.jpg',
-    title: 'Movistar',
-    category: { name: 'Eventos, Fashion' },
+    imageUrl:
+    'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Montibello.jpg',
+    title: 'Montibello',
+    category: { name: 'Eventos, Peluquería' },
     description:
-      'Durante años somos responsables de proveer el staff con protocolo de actuación en circuitos para grandes premios F1 y Moto GP',
+      'Principal cliente, servicio en la Gala realizada en la feria Cosmo Beauty. Fabrican y distribuyen productos de cosmética profesional.',
+  },
+  {
+    imageUrl: 
+    'https://github.com/sushi-js/SushiJS-Example-01/blob/main/bento/Arubamu/BCNHostess-cliente-Adidas.jpg',
+    title: 'Adidas',
+    category: { name: 'Eventos deportivos, Motor' },
+    description:
+      'Presentación nuevo lanzamiento, en el Gran Premio de España F1, Montemelo, circuito de Catalunya.',
   },
   {
     imageUrl:
@@ -79,27 +119,7 @@ const posts = [
     description:
       'Evento con Beefeater en Mad Cool Festival. Festival de música que se realiza en Madrid en donde el arte.',
   },
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Montibello0.jpg',
-    title: 'Montibello',
-    category: { name: 'Eventos, Peluquería' },
-    description:
-      'Principal cliente, servicio en la Gala realizada en la feria Cosmo Beauty. Fabrican y distribuyen productos de cosmética profesional.',
-  },
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/Adidas_1.jpg',
-    title: 'Adidas',
-    category: { name: 'Eventos deportivos, Motor' },
-    description:
-      'Presentación nuevo lanzamiento, en el Gran Premio de España F1, Montemelo, circuito de Catalunya.',
-  },
-  {
-    imageUrl: 'https://bcnhostess.com/wp-content/uploads/IQOS_3.2.jpg',
-    title: 'IQOS',
-    category: { name: 'Eventos, In Store' },
-    description:
-      'IQOS es una línea de productos de tabaco caliente y cigarrillos electrónicos. Explore nuestras alternativas sin humo.',
-  },
+
 ]
 
 export default function Example() {
