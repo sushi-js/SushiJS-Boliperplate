@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Sushisho() {
   return (
     <motion.nav
-      className='drop-shadow-xl max-w-6xl w-full bg-white-800 z-[1] filter-blur dark:bg-gray-800 top-2 md:top-4 px-4 py-2 rounded-md mx-auto flex justify-between items-center'
+      className='drop-shadow-xl max-w-6xl w-full bg-white-800 z-[1] filter-blur dark:bg-white top-2 md:top-4 px-4 py-2 rounded-md mx-auto flex justify-between items-center'
       animate={{ y: 25 }}
       transition={{ duration: 0.5 }}
     >
