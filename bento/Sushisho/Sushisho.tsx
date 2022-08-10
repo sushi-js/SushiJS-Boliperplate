@@ -1,3 +1,4 @@
+// Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
 import React from 'react'
 
 import { motion } from 'framer-motion'
