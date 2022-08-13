@@ -25,10 +25,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
 
-## How to prepare our SushiJS and Folder Structure:
-
-    How sushi is made:
-The Art of the best Sushi in the world.
+## How to prepare our SushiJS and Folder Structure
 
 01: 🍚, Cook rice. <- Prepare all your pages.
 02: 🧂, Mix Vinegar, Oil, Sugar & Salt.
