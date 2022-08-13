@@ -42,7 +42,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
 12 (real), 13, 14 and 15 steps above are optional.
 
-01: 🍚, Cook rice. <- Prepare all your pages.
+How to
 ├── 01 Sushisho (SushiJS Component, Main Menu)
 │   ├── Sushisho.tsx
 │   └── index.ts
