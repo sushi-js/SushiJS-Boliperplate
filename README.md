@@ -29,7 +29,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
     01: 🍚, Cook rice. <- Prepare all your pages.
     02: 🧂, Mix Vinegar, Oil, Sugar & Salt.
-    03: ⏲,  Cook until sugar is dissolved.
+    03: ⏲, Cook until sugar is dissolved.
     04: 🥣, Stir into rice.
     05: 🐟, Prepear fillings.
     06: ⬛️, Put Nori on a bamboo mat.
