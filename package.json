@@ -1,6 +1,6 @@
 {
   "name": "sushis-demo",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "SushiJS Boilerplate by ITAMAESAN",
   "scripts": {
     "dev": "next dev",
