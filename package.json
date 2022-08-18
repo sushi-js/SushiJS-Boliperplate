@@ -1,8 +1,8 @@
 {
-  "name": "template",
-  "version": "1.0.0",
+  "name": "SushiJS-Boilerplate",
+  "version": "1.7.2",
   "private": "true",
-  "description": "Customizable Front-End Template",
+  "description": "SushiJS Boilerplate by ITAMAESAN",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -118,18 +118,18 @@
   "keywords": [
     "tailwindcss",
     "template",
-    "radix",
-    "react",
-    "nextjs"
+    "nextjs",
+    "sushijs",
+    "taiwleindscss"
   ],
   "author": {
-    "email": "crisemcr@gmail.com",
-    "name": "Cristian Crețu",
-    "url": "https://cretu.dev"
+    "email": "it@itamaesan.org",
+    "name": "ITAMAESAN JAPAN",
+    "url": "https://itamaesan.org"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cristicretu/ts-next-tailwind-template/issues"
+    "url": "https://github.com/sushi-js/SushiJS-Example-01"
   },
-  "homepage": "https://template.cretu.dev"
+  "homepage": "https://sushijs.com"
 }
