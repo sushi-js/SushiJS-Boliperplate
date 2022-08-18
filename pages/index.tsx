@@ -6,7 +6,7 @@ import Sushiten from 'bento/Sushiten'
 import Bottom from 'bento/Bottom'
 import Meta from 'bento/Meta'
 // import Appbar from 'bento/Appbar'
-// import Section from 'bento/Section'
+import Section from 'bento/Section'
 // import Page from 'bento/Page'
 
 export default function Home() {
@@ -15,6 +15,8 @@ export default function Home() {
       <Meta />
       <Izakaya />
       <Sushisho />
+      <Section />
+      <Section />
       <Sushiten />
       <Bento />
       <ShashinArubamu />

@@ -5,9 +5,10 @@ import Link from 'next/link'
 
 export default function Sushiten() {
   return (
-    <motion.nav
+    <div className='hidden xl:inline'>
+   <motion.nav
       className='px-8 py-4 drop-shadow-xl max-w-6xl w-full bg-white-800 z-[1] filter-blur dark:bg-gray-800 top-10 md:top-20 rounded-md mx-auto flex justify-between items-center'
-      animate={{ y: 40 }}
+      animate={{ y: -10 }}
       transition={{ duration: 0.5 }}
     >
       <div className='flex flex-row gap-1 text-tertiary'>
@@ -60,5 +61,6 @@ export default function Sushiten() {
         </Link>
       </div>
     </motion.nav>
+    </div>
   )
 }

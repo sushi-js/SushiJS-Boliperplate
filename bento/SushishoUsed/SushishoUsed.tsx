@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 export default function Sushisho() {
   return (
+    <div className='hidden md:inline'>
     <nav className='px-8 drop-shadow-xl max-w-6xl w-full bg-white-800 z-[1] filter-blur dark:bg-white top-2 md:top-4 rounded-md mx-auto flex justify-between items-center'>
       <div className='flex flex-row gap-1 text-tertiary'>
         <Link href='/Inscribete'>
@@ -48,5 +49,6 @@ export default function Sushisho() {
         </Link>
       </div>
     </nav>
+    </div>
   )
 }

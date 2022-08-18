@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export default function Sushisho() {
   return (
-    <div className='sm:hidden'>
+    <div className='hidden md:inline'>
       <motion.nav
         className='px-8 drop-shadow-xl max-w-6xl w-full bg-white-800 z-[1] filter-blur dark:bg-white top-2 md:top-4 rounded-md mx-auto flex justify-between items-center'
         animate={{ y: 25 }}
