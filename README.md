@@ -1,4 +1,4 @@
-![SUSHIJS ITAMAESAN FRAMEWORK NEXTJ TYPESCRIPT TAILWINDCSS PRISMA FRAMER GITHUB WALLPAPER](https://user-images.githubusercontent.com/5947268/185245143-4aa4160f-1e39-400c-859f-70081b8ccb7d.png)
+![SUSHIJS ITAMAESAN FRAMEWORK NEXTJ TYPESCRIPT TAILWINDCSS PRISMA FRAMER GITHUB WALLPAPER](https://user-images.githubusercontent.com/5947268/185244272-494ac434-ef33-413b-a530-51a97b6d97bf.png)
 
 # SushiJS
 
@@ -11,6 +11,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 # Project Organizer
 
 - [Features](#features)
+- [npm](#npm)
 - [HowTo](#HowTo)
 - [Getting started](#getting-started)
 - [License](#license)
@@ -27,11 +28,15 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
 
+## npm
+
+    npm i @itamaesanorg/sushijs
+
 ## HowTo
 
     01: 🍚, Cook rice. <- Prepare all your pages.
     02: 🧂, Mix Vinegar, Oil, Sugar & Salt.
-    03: ⏲, Cook until sugar is dissolved.
+    03: ⏲,  Cook until sugar is dissolved.
     04: 🥣, Stir into rice.
     05: 🐟, Prepear fillings.
     06: ⬛️, Put Nori on a bamboo mat.
@@ -153,7 +158,53 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 ## We run on
 
     Vercel 🍣 Thanks Vercel if you read that!
+    
+## Structure
 
-## Credits SVG
+        SushiJS
+        +---bento
+        |   +---Appbar
+        |   +---Arubamu
+        |   +---Bento
+        |   +---BigText
+        |   +---Bijutsukan
+        |   +---Bottom
+        |   +---Burando
+        |   +---Container
+        |   +---Do
+        |   |   +---Case-Study-Clientes
+        |   |   |   \---Brands
+        |   |   +---Case-Study-Motor
+        |   |   |   +---Case-Study-Motor-Brands
+        |   |   |   \---Case-Study-Motor-Images
+        |   |   \---Case-Study-Peluqueria
+        |   |       +---Case-Study-Peluqueria-Brands
+        |   |       \---Case-Study-Peluqueria-Images
+        |   +---Footer
+        |   +---Izakaya
+        |   +---Meta
+        |   +---Page
+        |   +---Sabisu
+        |   |   +---Nuestros-Servicios-Eventos-Imagen
+        |   |   +---Nuestros-Servicios-Ferias-Congresos
+        |   |   +---Nuestros-Servicios-InStore
+        |   |   +---Nuestros-Servicios-Otros
+        |   |   +---Nuestros-Servicios-Street-Marketing
+        |   |   \---Nuestros-Servicios-Uniformes
+        |   +---Section
+        |   +---ShashinArubamu
+        |   +---Sushisho
+        |   +---SushishoUsed
+        |   +---Sushiten
+        |   +---SushitenUsed
+        |   \---Tekisuto
+        +---lib
+        +---pages
+        |   \---api
+        +---public
+        |   +---fonts
+        |   \---static
+        |       \---favicons
+        \---styles
 
-[svgviewer](https://www.svgviewer.dev/)
+
