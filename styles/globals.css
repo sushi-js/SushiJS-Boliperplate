@@ -69,7 +69,12 @@
   }
 
   body {
-    @apply p-0 m-0 font-sans;
+    @apply min-h-screen select-none bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-900 dark:text-zinc-50;
+    /* PWA enhancements */
+	  -webkit-overflow-scrolling: touch;
+	  -webkit-tap-highlight-color: transparent;
+	  -webkit-touch-callout: none;
+    
   }
 
   body:after {
