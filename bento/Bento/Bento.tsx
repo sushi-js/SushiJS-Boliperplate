@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Logo from 'bento/Logo'
-
 export default function Bento() {
   return (
     <div className='relative bg-white dark:bg-black pt-16 px-4 sm:px-6 lg:pt-12 lg:px-8'>
