@@ -7,7 +7,7 @@ export default function NotFound() {
     <Container title='Error 404'>
       <div className='my-2 sm:my-4 md:my-8 flex flex-col justify-center items-start max-w-2xl mx-auto mb-16'>
         <h1 className='font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white'>
-          Muy buenas, esto es un codigo 404, repito, tenemos un código 404, ha
+          Tenemos un codigo 404, repito, tenemos un código 404, ha
           sido notificado al departamento de IT
         </h1>
         <div className='flex flex-col space-y-12'>
