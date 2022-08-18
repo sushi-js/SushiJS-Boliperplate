@@ -1,6 +1,6 @@
 {
   "name": "sushis-demo",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "description": "SushiJS Boilerplate by ITAMAESAN",
   "scripts": {
     "dev": "next dev",
@@ -116,10 +116,11 @@
   },
   "keywords": [
     "tailwindcss",
-    "template",
     "nextjs",
-    "sushijs",
-    "taiwleindscss"
+    "typescript",
+    "framer",
+    "redwoodjs",
+    "prisma"
   ],
   "author": {
     "email": "it@itamaesan.org",
