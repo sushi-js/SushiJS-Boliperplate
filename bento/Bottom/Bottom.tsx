@@ -35,7 +35,7 @@ export default BottomNav
 const links = [
 	{
 		label: 'Inscríbete',
-		href: '/Inscribete',
+		href: '/Servicios',
 		icon: (
 <svg width="24px" height="24px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
   <g id="Group_91" data-name="Group 91" transform="translate(-317 -316)">
@@ -56,7 +56,7 @@ const links = [
 },
 {
 		label: 'Alta',
-		href: '/Alta',
+		href: '/Servicios',
 		icon: (
 			<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path fill="#FFFFFF" fill-rule="evenodd" d="M5.962 2.513a.75.75 0 01-.475.949l-.816.272a.25.25 0 00-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 00.25-.25V3.97a.25.25 0 00-.17-.236l-.817-.272a.75.75 0 01.474-1.424l.816.273A1.75 1.75 0 0121 3.97v17.28A1.75 1.75 0 0119.25 23H4.75A1.75 1.75 0 013 21.25V3.97a1.75 1.75 0 011.197-1.66l.816-.272a.75.75 0 01.949.475z"/>
@@ -74,7 +74,7 @@ const links = [
 		},
 		{
 		label: 'Telegram',
-		href: '/te.me/BCNHostess',
+		href: '/t.me/castingsbcn',
 		icon: (
 			<svg width="24" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 			<path fill="#229ED9" d="M16 0.5c-8.563 0-15.5 6.938-15.5 15.5s6.938 15.5 15.5 15.5c8.563 0 15.5-6.938 15.5-15.5s-6.938-15.5-15.5-15.5zM23.613 11.119l-2.544 11.988c-0.188 0.85-0.694 1.056-1.4 0.656l-3.875-2.856-1.869 1.8c-0.206 0.206-0.381 0.381-0.781 0.381l0.275-3.944 7.181-6.488c0.313-0.275-0.069-0.431-0.482-0.156l-8.875 5.587-3.825-1.194c-0.831-0.262-0.85-0.831 0.175-1.231l14.944-5.763c0.694-0.25 1.3 0.169 1.075 1.219z"/>
