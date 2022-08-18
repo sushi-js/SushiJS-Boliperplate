@@ -153,3 +153,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 ## We run on
 
     Vercel 🍣 Thanks Vercel if you read that!
+
+## Credits SVG
+
+[svgviewer](https://www.svgviewer.dev/)
