@@ -1,7 +1,8 @@
 {
   "name": "sushis-demo",
   "version": "2.0.1",
-  "description": "SushiJS Boilerplate by ITAMAESAN",
+  "description": "SushiJS Boilerplate, SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
+  "main": "pages/index.tsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +10,11 @@
     "lint": "npx eslint . --ext .ts,.tsx",
     "lint:fix": "npx eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write .",
-    "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}\"",
+    "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}",
     "pre-commit": "yarn lint:fix",
     "pre-push": "yarn check-format",
-    
+    "prepare": "husky install"
+  },
   "prettier": {
     "singleQuote": true,
     "jsxSingleQuote": true,
@@ -77,14 +79,14 @@
     }
   },
   "dependencies": {
+    "@segment/in-eu": "^0.3.0",
     "eslint-config-prettier": "^8.5.0",
-    "framer-motion": "^7.0.0",
+    "framer-motion": "^7.1.0",
     "next": "^12.2.3",
     "next-themes": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-use": "^17.4.0",
-    "tailwindcss": "^3.1.6"
+    "react-use": "^17.4.0"
   },
   "devDependencies": {
     "@types/node": "^18.6.1",
@@ -98,6 +100,7 @@
     "husky": "^8.0.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6",
     "typescript": "^4.7.4"
   },
   "browserslist": {
@@ -112,22 +115,24 @@
       "last 1 safari version"
     ]
   },
-  "keywords": [
-    "tailwindcss",
-    "nextjs",
-    "typescript",
-    "framer",
-    "redwoodjs",
-    "prisma"
-  ],
-  "author": {
-    "email": "it@itamaesan.org",
-    "name": "ITAMAESAN JAPAN",
-    "url": "https://itamaesan.org"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itamaesanorg/SushiJS.git"
   },
+  "keywords": [
+    "TypeScript",
+    "NextJS",
+    "TailwindCSS",
+    "Framer",
+    "EU-Privacy",
+    "RedwoodJS",
+    "Japan",
+    "Prisma"
+  ],
+  "author": "ITAMAESAN ORG",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sushi-js/SushiJS-Example-01"
+    "url": "https://github.com/itamaesanorg/SushiJS/issues"
   },
   "homepage": "https://sushijs.com"
 }
