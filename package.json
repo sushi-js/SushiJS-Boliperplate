@@ -1,6 +1,6 @@
 {
   "name": "sushis-demo",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "SushiJS Boilerplate, SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
   "main": "pages/index.tsx",
   "scripts": {

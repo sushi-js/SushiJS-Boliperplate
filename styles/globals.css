@@ -75,7 +75,12 @@
 	  -webkit-tap-highlight-color: transparent;
 	  -webkit-touch-callout: none;
     
+  bottom {
+    @apply min-h-screen select-none bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-900 dark:text-zinc-50;
   }
+
+  }
+
 
   body:after {
     content: '';
