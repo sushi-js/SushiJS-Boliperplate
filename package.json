@@ -1,6 +1,6 @@
 {
   "name": "sushis-demo",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "description": "SushiJS Boilerplate by ITAMAESAN",
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}\"",
     "prepare": "husky install",
-    "postinstall": "npm install husky && npm build",
+    "postinstall": "npx husky install && npm build",
     "pre-commit": "yarn lint:fix",
     "pre-push": "yarn check-format"
   },
