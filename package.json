@@ -1,6 +1,6 @@
 {
   "name": "sushis-demo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "SushiJS Boilerplate by ITAMAESAN",
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}\"",
     "pre-commit": "yarn lint:fix",
-    "pre-push": "yarn check-format"
+    "pre-push": "yarn check-format",
+    "prepare": "husky install"
   },
   "prettier": {
     "singleQuote": true,
@@ -95,7 +96,7 @@
     "eslint": "^8.20.0",
     "eslint-config-next": "12.2.3",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
