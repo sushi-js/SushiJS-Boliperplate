@@ -4,63 +4,63 @@ import React from 'react'
 const posts = [
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Adidas.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/06%20CardsProps/BCNHostess-cliente-Adidas.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Beefeater.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Beefeater.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
   {
     imageUrl:
-    'https://github.com/miguelgargallo/SushiJS-Example-001/blob/main/bento/06%20Arubamu/BCNHostess-cliente-Tinder.jpg?raw=true',
+    'https://github.com/sushi-js/sushis-demo/blob/src/common/components/elements/02%20Body/BCNHostess-cliente-Tinder.jpg?raw=true',
   },
 
 ]
