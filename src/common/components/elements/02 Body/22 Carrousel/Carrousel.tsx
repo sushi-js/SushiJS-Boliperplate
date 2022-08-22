@@ -64,7 +64,7 @@ const posts = [
   },
 
 ]
-export default function scrollImagesRight(props) {
+export default function scrollImagesRight() {
   return (
 <div className="w-full bg-red-100">
         <div className="h-[200px] m-auto overflow-hidden relative w-auto">
