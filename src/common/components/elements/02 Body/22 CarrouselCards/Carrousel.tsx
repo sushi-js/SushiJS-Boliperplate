@@ -123,7 +123,7 @@ const posts = [
 
 ]
 
-export default function scrollImagesRight(props) {
+export default function scrollImagesRight() {
   return (
     <div className='relative bg-white dark:bg-black px-4 sm:px-6'>
 		<div className="w-full bg-red-100">
