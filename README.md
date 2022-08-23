@@ -2,7 +2,7 @@
 
 # SushiJS
 
-SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile, new revolutionary and evolved folder "modular" structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.
+SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile. Intriduces NRNx2, an evolution of Next Right Now and Agile subsystem folder structure and development methodology. Makes anybody to understand the folder structure. A new revolutionary and evolved folder "modular" structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.
 
 SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
 
@@ -53,10 +53,10 @@ Then to upgrade components or add new components, you can just move the componen
 The second main feature of The SushiJS Framework is the ability to create components that are reusable but not necessarily general for all the pages. This is the reason why we have created the "uncommon" folder. This folder is part of the framework, and it is an extra way create components that are not general for all the pages. It contains, the same strcuture until you navigate to the "elements" folder, and the order of the imports is customizable 100% by the developer.
 
 For example:
-src/uncommon/components/elementsbypage/Home
-src/uncommon/components/elementsbypage/AboutUs
-src/uncommon/components/elementsbypage/ContactUs
-src/uncommon/components/elementsbypage/Menu
+ - src/uncommon/components/elementsbypage/Home
+ - src/uncommon/components/elementsbypage/AboutUs
+ - src/uncommon/components/elementsbypage/ContactUs
+ - src/uncommon/components/elementsbypage/Menu
 
 Inside this folders you will encounter a basic folder:
 
@@ -90,10 +90,10 @@ It's based on Agile methodology, it's a system to manage your projects and tasks
 
 Directories are the main feature of this system, you can create, delete, rename and move directories, but always under a precise level of numerical identification.
 The following identification levels are available:
-00 Header
-01 Head
-02 Body
-03 Footer
+ - 00 Header
+ - 01 Head
+ - 02 Body
+ - 03 Footer
 
 Inside those directories, you will encounter a second independent system of enumeration, this system is called the NRNx2 Agile, introduced by Miguel Gargallo, a software engineer student and a project manager. He studied at Harvard University and is the main developer at SushiJS.
 
@@ -101,7 +101,7 @@ Inside those directories, you will encounter a second independent system of enum
 
 
 # Why NRNx2
-NRN means NextJS Right Now, and x2 means the addition of SushiJS Agile, a Numerical Reference Number, or NRN, is a system to manage the numerical identification of the directories.
+NRN means Next Right Now, and x2 means the addition of SushiJS Agile, a Numerical Reference Number, NRN, a system to manage the numerical identification of the directories.
 
 - [Back to top 🔼](#Project-Organizer)
 
@@ -120,8 +120,6 @@ NRN means NextJS Right Now, and x2 means the addition of SushiJS Agile, a Numeri
     10: 🎋, Roll the bamboo mat and press.
     11: 🔪, Cut with wet knife.
     12: 🍣, Enjoy!
-
-    12 (real), 13, 14 and 15 steps above are optional.
 
 Take a look into the following directory structure:
 
