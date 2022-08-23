@@ -1,2 +1,0 @@
-For everypage, there could be something not in common, but still in use. For that, we will use the uncommon directory, to specify repetitive components, that are not used in specififc folders but not on every page.
-[]: # Path: src\uncommon\pages\services\components\elements\00 Header\00 MetaServices\00 MetaServices.tsx
