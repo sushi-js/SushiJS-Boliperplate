@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Meta = () => (
 	<Head>
-		<title>Rice Bowl</title>
+		<title>SushiJS Framework</title>
 		<meta charSet='utf-8' />
 		<meta name='mobile-web-app-capable' content='yes' />
 		<meta name='apple-mobile-web-app-capable' content='yes' />
@@ -11,8 +11,8 @@ const Meta = () => (
 			content='black-translucent'
 		/>
 		<meta name='apple-mobile-web-app-title' content='Rice Bowl' />
-		<meta name='application-name' content='Rice Bowl' />
-		<meta name='description' content='Bring your own ingredients' />
+		<meta name='application-name' content='SushiJS Framework' />
+		<meta name='description' content='ITAMAESAN ORG is an open source organization that aims to promote the use of open source software in the web development industry.' />
 		<meta
 			name='theme-color'
 			content='#f4f4f5'

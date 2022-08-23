@@ -1,7 +1,7 @@
 {
   "name": "sushis-demo",
-  "version": "2.0.2",
-  "description": "SushiJS Boilerplate, SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
+  "version": "2.0.3",
+  "description": "SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile, new revolutionary and evolved folder modular structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.",
   "main": "pages/index.tsx",
   "scripts": {
     "dev": "next dev",

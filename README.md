@@ -2,6 +2,8 @@
 
 # SushiJS
 
+SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile, new revolutionary and evolved folder "modular" structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.
+
 SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
 
 ✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source MIT License on our code.
@@ -10,13 +12,23 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
 # Project Organizer
 
+- [Getting started](#getting-started)
 - [Features](#features)
 - [npm](#npm)
 - [HowTo](#HowTo)
-- [Getting started](#getting-started)
+- [Support](#Support)
 - [License](#license)
 - [We run on](#we-run-on)
 - [Fix](#ix)
+
+
+## Getting started
+
+    ⬇️ git clone https://github.com/itamaesanorg/SushiJS.git
+    🔄 npm install
+    ➡️ npm run dev
+    ✨ Enjoy
+
 
 ## Features
 
@@ -50,81 +62,109 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
     12 (real), 13, 14 and 15 steps above are optional.
 
-    How to
-    ├── 01 Sushisho (SushiJS Component, Main Menu)
-    │   ├── Sushisho.tsx
-    │   └── index.ts
-    ├── 02 SushishoUsed (SushiJS Component, Main Menu in other pages, not homepage)
-    │   ├── SushishoUsed.tsx
-    │   └── index.ts
-    ├── 03 Sushiten (SushiJS Component, Second Menu)
-    │   ├── Sushiten.tsx
-    │   └── index.ts
-    ├── 04 SushitenUsed (SushiJS Component, Second Menu in other pages, not homepage)
-    │   ├── SushitenUsed.tsx
-    │   └── index.ts
-    ├── 05 Bento (SushiJS Component, Welcome text and description, H1 and H2)
-    │   ├── Bento.tsx
-    │   └── index.ts
-    ├── 06 Arubamu (SushiJS Component, Box Image)
-    │   ├── Arubamu.tsx
-    │   ├── ClientImageA.jpg
-    │   ├── ClientImageB.jpg
-    │   ├── ClientImageC.jpg
-    │   └── index.tsx
-    ├── 07 Do (SushiJS Component, Case Study)
-    │   ├── CaseStudyComapnyA
-    │   │   ├── BrandImageA.png
-    │   │   ├── BrandImageB.png
-    │   │   └── BrandImageC.png
-    │   ├── CaseStudyComapnyB
-    │   │   ├── BrandImageA.png
-    │   │   ├── BrandImageB.png
-    │   │   └── BrandImageC.png
-    │   └── CaseStudyComapnyC
-    │       ├── BrandImageA.png
-    │       ├── BrandImageB.png
-    │       └── BrandImageC.png
-    ├── 08 Bijutsukan (SushiJS Component, Our history)
-    │   ├── AboutUsImageA.jpg
-    │   ├── AboutUsImageB.jpg
-    │   └── AboutUsImageC.png
-    ├── 09 Burando (SushiJS Component, Company logos for slider)
-    │   ├── LogoCompanyA.png
-    │   ├── LogoCompanyB.png
-    │   └── LogoCompanyC.png
-    ├── 10 Container (The famous container)
-    │   ├── Container.tsx
-    │   └── index.ts
-    ├── 11 Izakaya (SushiJS Component, toggle dark mode)
-    │   ├── Izakaya.tsx
-    │   └── index.ts
-    ├── 12 Sabisu (SushiJS Component, Our services pasges content)
-    │   ├── Service 01
-    │   │   ├── ImageService0101.jpg
-    │   │   ├── ImageService0102.jpg
-    │   │   ├── ImageService0103.jpg
-    │   │   └── textservicetouse.md
-    │   ├── Service 02
-    │   │   ├── ImageService0201.jpg
-    │   │   ├── ImageService0202.jpg
-    │   │   ├── ImageService0203.jpg
-    │   │   └── textservicetouse.md
-    │   └── Service 03
-    │       ├── ImageService0301.jpg
-    │       ├── ImageService0302.jpg
-    │       ├── ImageService0303.jpg
-    │       └── textservicetouse.md
-    ├── 13 ShashinArubamu like Arubamu but more modern (SushiJS Component, Box Image)
-    │   ├── ShashinArubamu.tsx
-    │   └── index.ts
-    ├── 14 Tekisuto (text .md files here)
-    │   ├── How we work.md
-    │   ├── Some text.md
-    │   └── What we do.md
-    └── 15 Footer (The classic footer)
-        ├── Footer.tsx
-        └── index.ts
+    🍣 SUSHIJS FRAMEWORK
+    🔪---fonts
+    🔪---lib
+    🔪---public
+    ▒   🎋---fonts
+    ▒   🎋---static
+    ▒       🥓---favicons
+    🔪---src
+    ▒   🎋---app
+    ▒   ▒   🥓---components
+    ▒   ▒   ▒   🔲---GlobalStyles
+    ▒   ▒   🥓---styles
+    ▒   🎋---common
+    ▒   ▒   🥓---components
+    ▒   ▒   ▒   🔲elements
+    ▒   ▒   ▒       ⬜️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---00 Meta
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Meta.tsx
+    ▒   ▒   ▒       ⬜️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---01 Menu
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Sushisho.tsx
+    ▒   ▒   ▒       ▒   ⬛️---02 SecondaryMenu
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Sushiten.tsx
+    ▒   ▒   ▒       ▒   ⬛️---03 MenuNotAnimated
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 SushishoUsed.tsx
+    ▒   ▒   ▒       ▒   ⬛️---04 SecondaryMenuNotAnimated
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 SushitenUsed.tsx
+    ▒   ▒   ▒       ▒   ⬛️---05 ToggleDarkModeButton
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Izakaya.tsx
+    ▒   ▒   ▒       ⬜️---02 Body
+    ▒   ▒   ▒       ▒   ⬛️---06 WelcomeDescriptionText
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Bento.tsx
+    ▒   ▒   ▒       ▒   ⬛️---07 CardsProps
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Arubamu.tsx
+    ▒   ▒   ▒       ▒   ⬛️---08 AboutUsImages
+    ▒   ▒   ▒       ▒   ⬛️---09 BrandImages
+    ▒   ▒   ▒       ▒       🐟-----🧂 logo1.png
+    ▒   ▒   ▒       ▒       🐟-----🧂 logo2.png
+    ▒   ▒   ▒       ▒       🐟-----🧂 logo3.png
+    ▒   ▒   ▒       ▒   ⬛️---10 Container
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Container.tsx
+    ▒   ▒   ▒       ▒   ⬛️---12 OurServices
+    ▒   ▒   ▒       ▒   ⬛️---13 CardsPropsImproved
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 ShashinArubamu.tsx
+    ▒   ▒   ▒       ▒   ⬛️---14 OurServicesText
+    ▒   ▒   ▒       ▒   ⬛️---15 Bottom
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Bottom.tsx
+    ▒   ▒   ▒       ▒   ⬛️---16 Appbar
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Appbar.tsx
+    ▒   ▒   ▒       ▒   ⬛️---17 BigText
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 BigText.tsx
+    ▒   ▒   ▒       ▒   ⬛️---18 BigTextExport
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 BigTextExport.tsx
+    ▒   ▒   ▒       ▒   ⬛️---20 Section
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Section.tsx
+    ▒   ▒   ▒       ▒   ⬛️---21 Page
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Page.tsx
+    ▒   ▒   ▒       ▒   ⬛️---22 Carrousel
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Carrousel.tsx
+    ▒   ▒   ▒       ▒   ⬛️---22 CarrouselCards
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Carrousel.tsx
+    ▒   ▒   ▒       ▒   ⬛️---23 CoolError404
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 CooltError.tsx
+    ▒   ▒   ▒       ▒   ⬛️---24 CoolError404Exporter
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Arubamu.tsx
+    ▒   ▒   ▒       ⬜️---03 Footer
+    ▒   ▒   ▒           ⬛️---25 Footer
+    ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
+    ▒   ▒   ▒       ▒       ⏲-----🍚 Footer.tsx
+    ▒   ▒   🥓---hooks
+    ▒   ▒   🥓---types
+    ▒   ▒   🥓---utils
+    ▒   🎋---modules
+    ▒   ▒   🥓---auth
+    ▒   ▒       🔲---api
+    ▒   ▒       🔲---components
+    ▒   🎋---pages
+    ▒       🥓---api
+    ▒           🔲---authAPI
+    ▒           🔲---helloAPI
+    🔪---static
+    ▒   🎋---favicons
+    🔪---styles
 
     ⬜⬜⬜⬜⬜⬜⬜🟧🟧🟧⬜🟧🟧⬜🟧🟧⬜🟧🟧⬜⬜⬜⬜
     ⬜⬜⬜⬜⬜🟧🟧🟧🟧⬜🟧🟧⬜🟧🟧⬜🟧🟧⬜🟧🟧🟧⬜
@@ -140,14 +180,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     ⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜
     ⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜
 
-## Getting started
-
-    ⬇️ git clone https://github.com/itamaesanorg/SushiJS.git
-    🔄 npm install
-    ➡️ npm run dev
-    ✨ Enjoy
-
-## Getting started
+## Support
 
     🐣 Twitter: https://twitter.com/itamaesanorg
     🌐 Homepage: https://itamaesan.org redirects to https://SushiJS.com
@@ -159,55 +192,6 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 ## We run on
 
     Vercel 🍣 Thanks Vercel if you read that!
-    
-## Structure
-
-        SushiJS
-        +---bento
-        |   +---Appbar
-        |   +---Arubamu
-        |   +---Bento
-        |   +---BigText
-        |   +---Bijutsukan
-        |   +---Bottom
-        |   +---Burando
-        |   +---Container
-        |   +---Do
-        |   |   +---Case-Study-Clientes
-        |   |   |   \---Brands
-        |   |   +---Case-Study-Motor
-        |   |   |   +---Case-Study-Motor-Brands
-        |   |   |   \---Case-Study-Motor-Images
-        |   |   \---Case-Study-Peluqueria
-        |   |       +---Case-Study-Peluqueria-Brands
-        |   |       \---Case-Study-Peluqueria-Images
-        |   +---Footer
-        |   +---Izakaya
-        |   +---Meta
-        |   +---Page
-        |   +---Sabisu
-        |   |   +---Nuestros-Servicios-Eventos-Imagen
-        |   |   +---Nuestros-Servicios-Ferias-Congresos
-        |   |   +---Nuestros-Servicios-InStore
-        |   |   +---Nuestros-Servicios-Otros
-        |   |   +---Nuestros-Servicios-Street-Marketing
-        |   |   \---Nuestros-Servicios-Uniformes
-        |   +---Section
-        |   +---ShashinArubamu
-        |   +---Sushisho
-        |   +---SushishoUsed
-        |   +---Sushiten
-        |   +---SushitenUsed
-        |   \---Tekisuto
-        +---lib
-        +---pages
-        |   \---api
-        +---public
-        |   +---fonts
-        |   \---static
-        |       \---favicons
-        \---styles
-
 
 ## Fix
 

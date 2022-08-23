@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Appbar from 'src/common/components/elements/02 Body/16 Appbar'
-import Bottom from 'src/common/components/elements/02 Body/18 Bottom'
+import Bottom from 'src/common/components/elements/02 Body/15 Bottom'
 
 interface Props {
 	title?: string
