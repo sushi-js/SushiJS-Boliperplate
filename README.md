@@ -11,11 +11,12 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 ✨ ITAMAESAN は、オープンソースの MIT ライセンスで開発する開発者を支援するプロジェクトです。
 # Project Organizer
 
-- [MainFeatures](#MainFeatures)
+- [Main Features](#Main-Features)
 - [Agile in NextJS](#Agile-in-NextJS)
 - [NRNx2 Agile by ITAMAESAN](#NRNx2-Agile-by-ITAMAESAN)
 - [Project Management System](#Project-Management-System)
 - [Features](#Features)
+- [Why NRNx2](#Why-NRNx2)
 - [HowTo](#HowTo)
 - [Directories](#Directories)
 - [NRNx2 Agile](#NRNx2-Agile)
@@ -24,6 +25,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 - [License](#license)
 - [We run on](#we-run-on)
 - [Fix](#ix)
+
 
 ## Main Features
 
@@ -35,6 +37,9 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     📱 Responsive Nav
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
+
+- [Back to top 🔼](#Project-Organizer)
+
 
 ### Agile in NextJS
 
@@ -62,15 +67,27 @@ Inside this folders you will encounter a basic folder:
 
 In every page, that is the reason why we have created the "uncommon" folder, it is not a folder you will use everyday, it's uncommonly to use, but is there in case you need for example, to create a specific component, for a specific page for: testing purpouse, SEO or a specific component as mentioned before, like a custome menu.
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 # NRNx2 Agile by ITAMAESAN
+
 SuhsiJS introduced the NRNx2 Agile subsystem folder structure and development methodology.
 
 This is the first main aspects of SushiJS, here you will find out a Project Management System, a simple and easy to use system to manage your folders.
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 ## Project Management System
+
 It's based on Agile methodology, it's a system to manage your projects and tasks.
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 ### Features
+
 Directories are the main feature of this system, you can create, delete, rename and move directories, but always under a precise level of numerical identification.
 The following identification levels are available:
 00 Header
@@ -80,8 +97,15 @@ The following identification levels are available:
 
 Inside those directories, you will encounter a second independent system of enumeration, this system is called the NRNx2 Agile, introduced by Miguel Gargallo, a software engineer student and a project manager. He studied at Harvard University and is the main developer at SushiJS.
 
-Why NRNx2?
+- [Back to top 🔼](#Project-Organizer)
+
+
+# Why NRNx2
 NRN means NextJS Right Now, and x2 means the addition of SushiJS Agile, a Numerical Reference Number, or NRN, is a system to manage the numerical identification of the directories.
+
+- [Back to top 🔼](#Project-Organizer)
+
+
 ## HowTo
 
     01: 🍚, Cook rice. <- Prepare all your pages.
@@ -100,6 +124,9 @@ NRN means NextJS Right Now, and x2 means the addition of SushiJS Agile, a Numeri
     12 (real), 13, 14 and 15 steps above are optional.
 
 Take a look into the following directory structure:
+
+
+- [Back to top 🔼](#Project-Organizer)
 
 # Directories
 
@@ -220,7 +247,20 @@ Take a look into the following directory structure:
     ▒   🎋---favicons
     🔪---styles
 
-More precisely, the following files are exported:
+- [Back to top 🔼](#Project-Organizer)
+
+
+## NRNx2 Agile
+
+Between 00 Header and 01 Head there is no main difference at all. The only difference is the order of the imports internally.
+When you navigate to 02 Body, you will see that the order of the imports is a continuation of the order of the imports in 00 Header, and not a reset of the order in every directory.
+If you delete the main folders:
+    - 00 Header
+    - 01 Head
+    - 02 Body
+    - 03 Footer
+
+    More precisely, the following files are exported:
 
     ▒   ▒   ▒       ⬜️---00 Header
     ▒   ▒   ▒       ▒   ⬛️---00 Meta
@@ -255,19 +295,12 @@ More precisely, the following files are exported:
     ▒   ▒   ▒       ▒       🐟-----🧂 logo2.png
     ▒   ▒   ▒       ▒       🐟-----🧂 logo3.png
 
-## NRNx2 Agile
-
-Between 00 Header and 01 Head there is no main difference at all. The only difference is the order of the imports internally.
-When you navigate to 02 Body, you will see that the order of the imports is a continuation of the order of the imports in 00 Header, and not a reset of the order in every directory.
-If you delete the main folders:
-    - 00 Header
-    - 01 Head
-    - 02 Body
-    - 03 Footer
-
 And move all directories to the root of the elements project folder, you will see that the order of the imports is functional too.
 The system is developed to be easy for non relates heavy developers, or also called head of areas, or project managers Who know the basis of the programming skills, but do not know the order of the imports or projects specifications at all.
 This also enables a way to order tasks as the Agile Scrum Manifesto states.
+
+- [Back to top 🔼](#Project-Organizer)
+
 
 ## Getting started
 
@@ -275,6 +308,8 @@ This also enables a way to order tasks as the Agile Scrum Manifesto states.
     🔄 npm install
     ➡️ npm run dev
     ✨ Enjoy
+
+- [Back to top 🔼](#Project-Organizer)
 
 
 ## npm
@@ -296,21 +331,35 @@ This also enables a way to order tasks as the Agile Scrum Manifesto states.
     ⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜
     ⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 ## Support
 
     🐣 Twitter: https://twitter.com/itamaesanorg
     🌐 Homepage: https://itamaesan.org redirects to https://SushiJS.com
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 ## License
 
     ⚖️ MIT at: https://github.com/itamaesanorg/SushiJS/blob/main/LICENSE
+
+- [Back to top 🔼](#Project-Organizer)
+
 
 ## We run on
 
     Vercel 🍣 Thanks Vercel if you read that!
 
+- [Back to top 🔼](#Project-Organizer)
+
+
 ## Fix
 
     😍 Before dealing with the deploy please take while to read this for 100% optimization.
     [Here are posible steps before](https://github.com/itamaesanorg/edu)
+
+- [Back to top 🔼](#Project-Organizer)
 
