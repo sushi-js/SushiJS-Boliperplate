@@ -80,6 +80,7 @@
   },
   "dependencies": {
     "@segment/in-eu": "^0.3.0",
+    "cmdk": "^0.1.19",
     "eslint-config-prettier": "^8.5.0",
     "framer-motion": "^7.1.0",
     "next": "^12.2.3",
