@@ -42,19 +42,19 @@ const posts = [
   },
   {
     imageUrl:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Figaro.jpg?raw=true',
-    title: 'Figaro',
-    category: { name: 'Eventos, Peluquería' },
+    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-VICE.jpg?raw=true',
+    title: 'VICE',
+    category: { name: 'Eventos, Eventos deportivos' },
     description:
-      'Premios Fígaro. El evento más importante del calendario de la peluquería española, donde se presentaron las quince colecciones finalistas antes de la entrega de galardones.',
+      'Festival Cara B, es un festival de cultura musical independiente y urbana, que se celebra en Barcelona, se posiciona como el principal escaparate de las tendencias musicales y los sonidos más frescos del momento.',
   },
   {
-    imageUrl: 
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Vikingo.jpg?raw=true',
-    title: 'Vikingo',
-    category: { name: 'Bebidas, Eventos' },
+    imageUrl:
+    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Movistar.jpg?raw=true',
+    title: 'Movistar',
+    category: { name: 'Eventos, Fashion' },
     description:
-      'Evento realizado en el congreso CCIB (centre convencions internacional Barcelona).',
+      'Durante años fuimos los responsable de proveer el staff para grandes premios no solo de F1 sino que también de Moto GP, conocemos muy bien los protocolos de actuación en los circuitos.',
   },
   {
     imageUrl:
@@ -77,23 +77,23 @@ const posts = [
     title: 'IQOS',
     category: { name: 'Eventos, In Store' },
     description:
-      'Co_Lab Café by IQOS, Madrid. Espacio en el que nuestros expertos te asesorarán sobre este nuevo dispositivo electrónico que calienta el tabaco en lugar de quemarlo y te resolverán cualquier duda o incidencia.',
+      'Co_Lab Café by IQOS, Madrid. Espacio en el que nuestros expertos te asesorarán sobre este nuevo dispositivo electrónico que calienta el tabaco en lugar de quemarlo y te resolverán cualquier duda o incidencia. Pensado para reunir diversas personalidades, conectar ideas, promocionar la experimentación y compartir ejemplos sobre transformación y cambio.',
   },
   {
     imageUrl:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-VICE.jpg?raw=true',
-    title: 'VICE',
-    category: { name: 'Eventos, Eventos deportivos' },
+    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Figaro.jpg?raw=true',
+    title: 'Figaro',
+    category: { name: 'Eventos, Peluquería' },
     description:
-      'Festival Cara B, es un festival de cultura musical independiente y urbana, que se celebra en Barcelona, se posiciona como el principal escaparate de las tendencias musicales y los sonidos más frescos del momento.',
+      'Premios Fígaro. El evento más importante del calendario de la peluquería española, donde se presentaron las quince colecciones finalistas antes de la entrega de galardones.',
   },
   {
-    imageUrl:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Movistar.jpg?raw=true',
-    title: 'Movistar',
-    category: { name: 'Eventos, Fashion' },
+    imageUrl: 
+    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Vikingo.jpg?raw=true',
+    title: 'Vikingo',
+    category: { name: 'Bebidas, Eventos' },
     description:
-      'Durante años fuimos los responsable de proveer el staff para grandes premios no solo de F1 sino que también de Moto GP, conocemos muy bien los protocolos de actuación en los circuitos.',
+      'Evento realizado en el congreso CCIB (centre convencions internacional Barcelona).',
   },
   {
     imageUrl:
@@ -124,7 +124,7 @@ const posts = [
 
 export default function Example() {
   return (
-    <div className='gap-8  columns-[auto]  relative bg-white dark:bg-black px-4 sm:px-6'>
+    <div className='relative bg-white dark:bg-black px-4 sm:px-6'>
       <div className='bg-white dark:bg-black h-1/3 sm:h-2/3' />
       <div className='relative max-w-5xl mx-auto'>
         <div className='mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-6xl'>

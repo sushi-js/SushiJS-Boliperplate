@@ -30,12 +30,6 @@ module.exports = {
     variants: {
       extend: {},
     },
-    plugins: [
-      requiere('autoprefixer'),
-      require('postcss-import'),
-      require('tailwindcss/nesting')(require('postcss-nesting')),
-      require('autoprefixer'),
-      require('tailwindcss'),
-    ],
+    plugins: [],
   }
 }

@@ -17,14 +17,14 @@ export default function Sushisho() {
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Inscribete'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Inscríbete
+              Inscríbete
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Presupuesto'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Presupuesto
+              Presupuesto
             </a>
           </Link>
         </div>
@@ -37,7 +37,7 @@ export default function Sushisho() {
                   src='https://raw.githubusercontent.com/miguelgargallo/SushiJS-Example-001/cf74497949cad84b0544e17b840cd5165c37545a/public/static/favicons/logo.svg'
                   alt='BCN Hostess'
                 />
-              </div>
+              </div>{' '}
             </a>
           </Link>
         </div>
@@ -51,7 +51,7 @@ export default function Sushisho() {
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Contacto'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Contacto
+              Contacto
             </a>
           </Link>
         </div>
