@@ -4,7 +4,7 @@ const svgToDataUri = require('mini-svg-data-uri')
 
 export default function Bento() {
   return (
-    <div class="columns-2">
+    <div className="columns-2">
     <div className='relative bg-white dark:bg-black pt-16 px-4 sm:px-6 lg:pt-12 lg:px-8'>
       <div className='bg-white dark:bg-black h-1/3 sm:h-2/3' />
       <div className='relative max-w-7xl mx-auto'>
@@ -74,8 +74,8 @@ export default function Bento() {
                   </div>
                 </div>
                 <p>
-                <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"></input>
-                <span class="ajax-loader"></span>
+                <input type="submit" value="Enviar" className="wpcf7-form-control wpcf7-submit"></input>
+                <span className="ajax-loader"></span>
                 </p>
               </div>
         </div>
