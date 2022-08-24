@@ -37,7 +37,7 @@ export default function Sushisho() {
                   src='https://raw.githubusercontent.com/miguelgargallo/SushiJS-Example-001/cf74497949cad84b0544e17b840cd5165c37545a/public/static/favicons/logo.svg'
                   alt='BCN Hostess'
                 />
-              </div>{' '}
+              </div>
             </a>
           </Link>
         </div>

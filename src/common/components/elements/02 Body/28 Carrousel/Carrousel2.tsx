@@ -12,6 +12,10 @@ const posts = [
   },
   {
     imageUrl:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/09%20BrandImages/BCNHostess-cliente-logo-GINMIG.png?raw=true',
+  },
+  {
+    imageUrl:
     'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/09%20BrandImages/BCNHostess-cliente-logo-LuckySrike.png?raw=true',
   },
   {
@@ -61,6 +65,7 @@ export default function scrollImagesRight() {
                 <li className="w-[250px]"><img src ={posts[5].imageUrl} className="w-full h-full" /></li>
                 <li className="w-[250px]"><img src ={posts[6].imageUrl} className="w-full h-full" /></li>
                 <li className="w-[250px]"><img src ={posts[7].imageUrl} className="w-full h-full" /></li>
+                <li className="w-[250px]"><img src ={posts[8].imageUrl} className="w-full h-full" /></li>
             </ul>
         </div>
 </div>

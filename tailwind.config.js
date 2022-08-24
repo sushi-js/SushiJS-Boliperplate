@@ -19,12 +19,12 @@ module.exports = {
         sans: ['Inter', ...fontFamily.sans],
       },
       animation: {
-        scroll: 'scroll 120s linear infinite',
+        scroll: 'scroll 40s linear infinite',
       },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(calc(-200px * 40))' },
+          '100%': { transform: 'translateX(calc(-350px * 3))' },
         },
       },
     variants: {
@@ -32,4 +32,5 @@ module.exports = {
     },
     plugins: [],
   }
+  
 }
