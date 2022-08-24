@@ -1,1 +1,1 @@
-export default from './Carrousel1'
+import from from "../27 Carrousel"
