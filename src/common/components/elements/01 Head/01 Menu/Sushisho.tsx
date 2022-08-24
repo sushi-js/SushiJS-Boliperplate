@@ -17,14 +17,14 @@ export default function Sushisho() {
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Inscribete'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              Inscríbete
+            Inscríbete
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Presupuesto'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              Presupuesto
+            Presupuesto
             </a>
           </Link>
         </div>
@@ -44,14 +44,14 @@ export default function Sushisho() {
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Conocenos'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              ✅ Conócenos
+              Conócenos
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Contacto'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              Contacto
+            Contacto
             </a>
           </Link>
         </div>

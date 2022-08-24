@@ -1,7 +1,6 @@
 import Bento from 'src/uncommon/components/elementsbypage/Otros-Eventos/02 Body/06 WelcomeDescriptionText'
 import Izakaya from 'src/common/components/elements/01 Head/11 ToggleDarkModeButton'
 import ShashinArubamu from 'src/common/components/elements/02 Body/13 CardsPropsImproved'
-import Izakaya from 'src/common/components/elements/01 Head/11 ToggleDarkModeButton'
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
 import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
 import Bottom from 'src/common/components/elements/02 Body/15 Bottom'
