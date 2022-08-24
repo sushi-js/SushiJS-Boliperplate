@@ -1,1 +1,1 @@
-export { default } from './Carrousel2'
+export default from './Carrousel2'
