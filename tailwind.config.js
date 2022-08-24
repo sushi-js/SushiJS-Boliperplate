@@ -1,5 +1,6 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
+const plugin  = require('@tailwindcss/forms')
 
 module.exports = {
   mode: 'jit',
@@ -30,7 +31,9 @@ module.exports = {
     variants: {
       extend: {},
     },
-    plugins: [],
+    plugins: [
+      require('@tailwindcss/forms'),
+    ],
   }
   
 }

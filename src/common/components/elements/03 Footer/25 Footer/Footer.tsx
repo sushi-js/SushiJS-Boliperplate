@@ -26,33 +26,33 @@ export default function Footer() {
           <Link href='/'>
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
-          <ExternalLink href='https://www.instagram.com/bcnhostess'>
+          <Link href='https://www.instagram.com/bcnhostess'>
             Instagram
-          </ExternalLink>
+          </Link>
         </div>
         <div className='flex flex-col space-y-4'>
-          <Link href='/'>
+          <Link href='/Servicios'>
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
-          <ExternalLink href='https://www.instagram.com/bcnhostess'>
+          <Link href='https://www.instagram.com/bcnhostess'>
             Servicios
-          </ExternalLink>
+          </Link>
         </div>
         <div className='flex flex-col space-y-4'>
-          <Link href='/'>
+          <Link href='/Legal'>
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
-          <ExternalLink href='https://www.instagram.com/bcnhostess'>
+          <Link href='/Legal'>
             Legal
-          </ExternalLink>
+          </Link>
         </div>
         <div className='flex flex-col space-y-4'>
-          <Link href='/'>
+          <Link href='/ToS'>
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
-          <ExternalLink href='https://www.instagram.com/bcnhostess'>
+          <Link href='/ToS'>
             Términos y Condiciones
-          </ExternalLink>
+          </Link>
         </div>
       </div>
     </div>

@@ -44,7 +44,7 @@ export default function Sushisho() {
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/Conocenos'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              Conócenos
+              ✅ Conócenos
             </a>
           </Link>
         </div>
