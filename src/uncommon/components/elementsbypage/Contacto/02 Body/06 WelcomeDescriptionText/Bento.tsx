@@ -27,7 +27,7 @@ export default function Bento() {
                 <input type="text" className="mt-1 block w-full" placeholder="" />
               </label>
               <label className="block">
-                <span className="text-gray-700">Component Name</span>
+                <span className="text-gray-700">Company Name</span>
                 <input type="text" className="mt-1 block w-full" placeholder="" />
               </label>
               <label className="block ">
@@ -35,7 +35,11 @@ export default function Bento() {
                 <input type="email" className="mt-1 block w-full  justify-center" placeholder="john@example.com" />
               </label>
               <label className="block">
-                <span className="text-gray-700">When is your event?</span>
+                <span className="text-gray-700">When the event begins?</span>
+                <input type="date" className="mt-1 block w-full" />
+              </label>
+              <label className="block">
+                <span className="text-gray-700">When the event ends?</span>
                 <input type="date" className="mt-1 block w-full" />
               </label>
               <label className="block">
@@ -49,23 +53,34 @@ export default function Bento() {
               </label>
               <label className="block">
                 <span className="text-gray-700">Additional details</span>
-                <textarea class="mt-1 block w-full" rows="3"></textarea>
-              </label>
+                </label>
               <div className="block">
                 <div className="mt-2">
                   <div>
                     <label className="inline- items-center">
                       <input type="checkbox" checked />
-                      <span className="ml-2">Email me news and special offers</span>
+                      <span className="ml-2">Consiento el uso de mis datos para los fines indicados en la política de privacidad SUS DATOS SEGUROS</span>
                     </label>
                   </div>
                   </div>
                 </div>
+                <div className="mt-2">
+                  <div>
+                    <label className="inline- items-center">
+                      <input type="checkbox" checked />
+                      <span className="ml-2">Consiento el uso de mis datos personales para recibir publicidad de su entidad</span>
+                    </label>
+                  </div>
+                  </div>
+                </div>
+                <p>
+                <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"></input>
+                <span class="ajax-loader"></span>
+                </p>
               </div>
         </div>
         </div>
         </div>
-      </div>
     </div>
   )
 }
