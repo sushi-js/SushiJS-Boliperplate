@@ -1,7 +1,7 @@
 {
   "name": "sushis-demo",
-  "version": "2.1.0",
-  "description": "SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile. Introduces NRNx2, an evolution of Next Right Now and Agile subsystem folder structure and development methodology. Makes anybody to understand the folder structure. A new revolutionary and evolved folder modular structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.",
+  "version": "2.1.1",
+  "description": "SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile, new revolutionary and evolved folder modular structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.",
   "main": "pages/index.tsx",
   "scripts": {
     "dev": "next dev",
@@ -79,10 +79,7 @@
     }
   },
   "dependencies": {
-    "@mantine/carousel": "^5.2.3",
     "@segment/in-eu": "^0.3.0",
-    "cmdk": "^0.1.19",
-    "embla-carousel-react": "^7.0.1",
     "eslint-config-prettier": "^8.5.0",
     "framer-motion": "^7.1.0",
     "next": "^12.2.3",
@@ -92,7 +89,6 @@
     "react-use": "^17.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.2",
     "@types/node": "^18.6.1",
     "@types/react": "^18.0.15",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
@@ -128,14 +124,6 @@
     "NextJS",
     "TailwindCSS",
     "Framer",
-    "Agile",
-    "Project Management",
-    "Project Management Methodologies",
-    "Agile Methodologies",
-    "Agile Development",
-    "Agile Development Methodologies",
-    "Next Right Now",
-    "NRN",
     "EU-Privacy",
     "RedwoodJS",
     "Japan",

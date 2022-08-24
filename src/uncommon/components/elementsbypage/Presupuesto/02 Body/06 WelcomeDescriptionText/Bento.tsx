@@ -1,7 +1,5 @@
 import React from 'react'
 
-const svgToDataUri = require('mini-svg-data-uri')
-
 export default function Bento() {
   return (
     <div className="columns-2">

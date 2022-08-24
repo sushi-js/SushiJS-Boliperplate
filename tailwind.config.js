@@ -1,6 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
-const plugin  = require('@tailwindcss/forms')
 
 module.exports = {
   mode: 'jit',
@@ -20,20 +19,17 @@ module.exports = {
         sans: ['Inter', ...fontFamily.sans],
       },
       animation: {
-        scroll: 'scroll 40s linear infinite',
+        scroll: 'scroll 120s linear infinite',
       },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(calc(-350px * 3))' },
+          '100%': { transform: 'translateX(calc(-200px * 40))' },
         },
       },
     variants: {
       extend: {},
     },
-    plugins: [
-      require('@tailwindcss/forms'),
-    ],
+    plugins: [],
   }
-  
 }

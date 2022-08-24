@@ -33,8 +33,17 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Under Development
+# Internal
 src/pages/Do not touch, in progress
 steve jobs email files (thanks Steve)
-src/common/components/elements/02 Body/27 Carrousel
-src/common/components/elements/02 Body/28 Carrousel
+
+# Next
+.next
+
+# VS Code
+.vscode
+
+# Upload
+node_modules
+steve jobs email files (thanks Steve)
+Do not touch, in progress
