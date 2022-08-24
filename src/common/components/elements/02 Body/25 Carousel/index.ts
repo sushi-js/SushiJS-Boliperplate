@@ -1,3 +1,4 @@
-import { Carousel } from "@mantine/carousel";
+import Carousel from "@mantine/carousel";
 
 export default Carousel;
+ 
