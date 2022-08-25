@@ -1,4 +1,4 @@
-import Bento from 'src/common/components/elements/02 Body/06 WelcomeDescriptionText'
+import Bento from 'src/uncommon/components/elementsbypage/Otros-Eventos/02 Body/06 WelcomeDescriptionText'
 import Izakaya from 'src/common/components/elements/01 Head/11 ToggleDarkModeButton'
 import ShashinArubamu from 'src/common/components/elements/02 Body/13 CardsPropsImproved'
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
