@@ -79,6 +79,8 @@
     }
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
     "@segment/in-eu": "^0.3.0",
     "eslint-config-prettier": "^8.5.0",
     "framer-motion": "^7.1.0",
@@ -89,6 +91,7 @@
     "react-use": "^17.4.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
     "@types/node": "^18.6.1",
     "@types/react": "^18.0.15",
     "@typescript-eslint/eslint-plugin": "^5.31.0",

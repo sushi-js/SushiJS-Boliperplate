@@ -6,6 +6,7 @@ import Bottom from 'src/common/components/elements/02 Body/15 Bottom'
 import Meta from 'src/common/components/elements/00 Header/00 Meta'
 import Section from 'src/common/components/elements/02 Body/22 Section'
 import Footer from 'src/common/components/elements/03 Footer/25 Footer/Footer'
+import Contacto from 'src/common/components/elements/02 Body/25 Contact'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Section />
       <Section />
       <Sushiten />
-      <Bento />
+      <Contacto />
       <Bottom />   
       <Footer />
     </>

@@ -35,7 +35,7 @@ export default function Footer() {
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
           <Link href='https://www.instagram.com/bcnhostess'>
-            Servicios
+            Services
           </Link>
         </div>
         <div className='flex flex-col space-y-4'>
@@ -51,7 +51,7 @@ export default function Footer() {
             <a className='text-gray-500 hover:text-gray-600 transition'></a>
           </Link>
           <Link href='/ToS'>
-            Términos y Condiciones
+            Privacy Policy
           </Link>
         </div>
       </div>
