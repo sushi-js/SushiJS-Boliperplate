@@ -1,4 +1,3 @@
-import Bento from 'src/uncommon/components/elementsbypage/Contacto/02 Body/06 WelcomeDescriptionText'
 import Izakaya from 'src/common/components/elements/01 Head/11 ToggleDarkModeButton'
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
 import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'

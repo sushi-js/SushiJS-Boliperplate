@@ -1,4 +1,4 @@
-import Bento from 'src/uncommon/components/elementsbypage/Presupuesto/02 Body/06 WelcomeDescriptionText'
+import Contacto from 'src/common/components/elements/02 Body/26 Presupuesto'
 import Izakaya from 'src/common/components/elements/01 Head/11 ToggleDarkModeButton'
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
 import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
@@ -16,7 +16,7 @@ export default function Home() {
       <Section />
       <Section />
       <Sushiten />
-      <Bento />
+      <Contacto />
       <Bottom />   
       <Footer />
     </>

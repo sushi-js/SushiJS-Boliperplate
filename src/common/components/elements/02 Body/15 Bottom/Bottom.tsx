@@ -34,8 +34,8 @@ export default BottomNav
 
 const links = [
 	{
-		label: 'Inscríbete',
-		href: '/',
+		label: 'Contacto',
+		href: '/Contacto',
 		icon: (
 <svg width="24px" height="24px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
   <g id="Group_91" data-name="Group 91" transform="translate(-317 -316)">
@@ -55,8 +55,8 @@ const links = [
 ),
 },
 {
-		label: 'Alta',
-		href: '/',
+		label: 'Presupuesto',
+		href: '/Presupuesto',
 		icon: (
 			<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path fill="#FFFFFF" fill-rule="evenodd" d="M5.962 2.513a.75.75 0 01-.475.949l-.816.272a.25.25 0 00-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 00.25-.25V3.97a.25.25 0 00-.17-.236l-.817-.272a.75.75 0 01.474-1.424l.816.273A1.75 1.75 0 0121 3.97v17.28A1.75 1.75 0 0119.25 23H4.75A1.75 1.75 0 013 21.25V3.97a1.75 1.75 0 011.197-1.66l.816-.272a.75.75 0 01.949.475z"/>
